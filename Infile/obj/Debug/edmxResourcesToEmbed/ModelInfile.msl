@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InfileModelStoreContainer" CdmEntityContainer="InfileEntities">
+    <EntitySetMapping Name="CAT_STD_Documento">
+      <EntityTypeMapping TypeName="InfileModel.CAT_STD_Documento">
+        <MappingFragment StoreEntitySet="CAT_STD_Documento">
+          <ScalarProperty Name="CodigoTipoDocumento" ColumnName="CodigoTipoDocumento" />
+          <ScalarProperty Name="SerieDocumento" ColumnName="SerieDocumento" />
+          <ScalarProperty Name="NoResolucion" ColumnName="NoResolucion" />
+          <ScalarProperty Name="FechaResolucion" ColumnName="FechaResolucion" />
+          <ScalarProperty Name="NoCorrelativoInicial" ColumnName="NoCorrelativoInicial" />
+          <ScalarProperty Name="NoCorrelativoFinal" ColumnName="NoCorrelativoFinal" />
+          <ScalarProperty Name="CodigoSucursal" ColumnName="CodigoSucursal" />
+          <ScalarProperty Name="CodigoTerminal" ColumnName="CodigoTerminal" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_STD_General">
+      <EntityTypeMapping TypeName="InfileModel.CAT_STD_General">
+        <MappingFragment StoreEntitySet="CAT_STD_General">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="NombreComercial" ColumnName="NombreComercial" />
+          <ScalarProperty Name="NombreSocial" ColumnName="NombreSocial" />
+          <ScalarProperty Name="RegimenSAT" ColumnName="RegimenSAT" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Municipio" ColumnName="Municipio" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="xSpDocumento" FunctionName="InfileModel.Store.xSpDocumento">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfileModel.xSpDocumento_Result">
+          <ScalarProperty Name="NoDocumento" ColumnName="NoDocumento" />
+          <ScalarProperty Name="FechaEmision" ColumnName="FechaEmision" />
+          <ScalarProperty Name="CodigoSucursal" ColumnName="CodigoSucursal" />
+          <ScalarProperty Name="NombreSucursal" ColumnName="NombreSucursal" />
+          <ScalarProperty Name="CodigoCliente" ColumnName="CodigoCliente" />
+          <ScalarProperty Name="NIT" ColumnName="NIT" />
+          <ScalarProperty Name="Direccion1" ColumnName="Direccion1" />
+          <ScalarProperty Name="Direccion2" ColumnName="Direccion2" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Municipio" ColumnName="Municipio" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="CodigoPais" ColumnName="CodigoPais" />
+          <ScalarProperty Name="EstadoDocumento" ColumnName="EstadoDocumento" />
+          <ScalarProperty Name="CodigoProducto" ColumnName="CodigoProducto" />
+          <ScalarProperty Name="DescripcionProducto" ColumnName="DescripcionProducto" />
+          <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="PrecioUnitario" ColumnName="PrecioUnitario" />
+          <ScalarProperty Name="CantidadArticulos" ColumnName="CantidadArticulos" />
+          <ScalarProperty Name="PorcentajeDescuento" ColumnName="PorcentajeDescuento" />
+          <ScalarProperty Name="PrecioTotal" ColumnName="PrecioTotal" />
+          <ScalarProperty Name="TasaIVA" ColumnName="TasaIVA" />
+          <ScalarProperty Name="cat_des" ColumnName="cat_des" />
+          <ScalarProperty Name="IngresosNetosGravados" ColumnName="IngresosNetosGravados" />
+          <ScalarProperty Name="TipoImpuesto" ColumnName="TipoImpuesto" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

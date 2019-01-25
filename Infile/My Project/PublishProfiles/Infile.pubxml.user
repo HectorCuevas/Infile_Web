@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\kevinramirez\Downloads\Infile</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/03/2015 17:43:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/03/2015 17:43:42</publishTime>
+    </File>
+    <File Include="bin/Infile.dll">
+      <publishTime>12/11/2017 20:37:58</publishTime>
+    </File>
+    <File Include="bin/Infile.xml">
+      <publishTime>12/11/2017 20:37:58</publishTime>
+    </File>
+    <File Include="bin/Infile.XmlSerializers.dll">
+      <publishTime>12/11/2017 20:38:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:57:10</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="Infile.asmx">
+      <publishTime>11/05/2017 21:15:50</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/11/2017 18:28:17</publishTime>
+    </File>
+    <File Include="Web References/wsInfile/Reference.map">
+      <publishTime>11/05/2017 21:21:05</publishTime>
+    </File>
+    <File Include="Web References/wsInfile/responseAnulacionDte.datasource">
+      <publishTime>11/05/2017 21:21:06</publishTime>
+    </File>
+    <File Include="Web References/wsInfile/responseCierre.datasource">
+      <publishTime>11/05/2017 21:21:06</publishTime>
+    </File>
+    <File Include="Web References/wsInfile/responseDte.datasource">
+      <publishTime>11/05/2017 21:21:06</publishTime>
+    </File>
+    <File Include="Web References/wsInfile/responseDteSap.datasource">
+      <publishTime>11/05/2017 21:21:06</publishTime>
+    </File>
+    <File Include="Web References/wsInfile/responseValidacion.datasource">
+      <publishTime>11/05/2017 21:21:06</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/20/2017 21:41:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

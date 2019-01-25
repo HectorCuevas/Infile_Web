@@ -1,0 +1,61 @@
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\csc.exe
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\System.Collections.Immutable.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\vbc.exe
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\VBCSCompiler.exe
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\roslyn\VBCSCompiler.exe.config
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Infile.dll.config
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Infile.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Infile.pdb
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Infile.xml
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Newtonsoft.Json.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\Newtonsoft.Json.xml
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\obj\Debug\Infile.Resources.resources
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\obj\Debug\Infile.vbproj.GenerateResource.Cache
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\obj\Debug\Infile.dll
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\obj\Debug\Infile.xml
+c:\users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\obj\Debug\Infile.pdb
+C:\Users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\EntityFramework.dll
+C:\Users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\EntityFramework.SqlServer.dll
+C:\Users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\EntityFramework.xml
+C:\Users\kevinramirez\documents\visual studio 2015\Projects\Infile\Infile\bin\EntityFramework.SqlServer.xml
+C:\Users\kevinramirez\Documents\Visual Studio 2015\Projects\Infile\Infile\obj\Debug\Infile.vbprojResolveAssemblyReference.cache
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\csc.exe
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\vbc.exe
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\VBCSCompiler.exe
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Infile.dll.config
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Infile.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Infile.pdb
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Infile.xml
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\EntityFramework.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\EntityFramework.SqlServer.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Newtonsoft.Json.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\EntityFramework.xml
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\EntityFramework.SqlServer.xml
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\bin\Newtonsoft.Json.xml
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\obj\Debug\Infile.vbprojResolveAssemblyReference.cache
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\obj\Debug\Infile.Resources.resources
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\obj\Debug\Infile.vbproj.GenerateResource.Cache
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\obj\Debug\Infile.vbproj.CoreCompileInputs.cache
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\obj\Debug\Infile.dll
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\obj\Debug\Infile.xml
+C:\Users\Norman\Documents\Prosisco\Infile_Web\Infile\obj\Debug\Infile.pdb

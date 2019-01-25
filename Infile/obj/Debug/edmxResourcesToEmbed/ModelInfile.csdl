@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InfileModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CAT_STD_Documento">
+    <Key>
+      <PropertyRef Name="CodigoTipoDocumento" />
+      <PropertyRef Name="SerieDocumento" />
+    </Key>
+    <Property Name="CodigoTipoDocumento" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SerieDocumento" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NoResolucion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FechaResolucion" Type="DateTime" Precision="0" />
+    <Property Name="NoCorrelativoInicial" Type="Int32" />
+    <Property Name="NoCorrelativoFinal" Type="Int32" />
+    <Property Name="CodigoSucursal" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CodigoTerminal" Type="Int32" />
+    <Property Name="Estado" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="CAT_STD_General">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NombreComercial" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NombreSocial" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RegimenSAT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Municipio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Departamento" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CorreoElectronico" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="InfileEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CAT_STD_Documento" EntityType="Self.CAT_STD_Documento" />
+    <EntitySet Name="CAT_STD_General" EntityType="Self.CAT_STD_General" />
+    <FunctionImport Name="xSpDocumento" ReturnType="Collection(InfileModel.xSpDocumento_Result)">
+      <Parameter Name="NumeroDocumento" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="xSpDocumento_Result">
+    <Property Type="Int32" Name="NoDocumento" Nullable="false" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="false" Precision="16" />
+    <Property Type="String" Name="CodigoSucursal" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="NombreSucursal" Nullable="false" MaxLength="60" />
+    <Property Type="String" Name="CodigoCliente" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="NIT" Nullable="false" MaxLength="18" />
+    <Property Type="String" Name="Direccion1" Nullable="false" MaxLength="Max" />
+    <Property Type="String" Name="Direccion2" Nullable="false" MaxLength="60" />
+    <Property Type="String" Name="NombreCliente" Nullable="false" MaxLength="60" />
+    <Property Type="String" Name="Telefono" Nullable="false" MaxLength="60" />
+    <Property Type="String" Name="Municipio" Nullable="false" MaxLength="60" />
+    <Property Type="String" Name="Departamento" Nullable="false" MaxLength="60" />
+    <Property Type="String" Name="CodigoPais" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EstadoDocumento" Nullable="false" MaxLength="7" />
+    <Property Type="String" Name="CodigoProducto" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="DescripcionProducto" Nullable="false" MaxLength="120" />
+    <Property Type="String" Name="UnidadMedida" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="Tipo" Nullable="false" MaxLength="1" />
+    <Property Type="Decimal" Name="PrecioUnitario" Nullable="false" Precision="18" Scale="5" />
+    <Property Type="Decimal" Name="CantidadArticulos" Nullable="false" Precision="18" Scale="5" />
+    <Property Type="String" Name="PorcentajeDescuento" Nullable="false" MaxLength="15" />
+    <Property Type="Decimal" Name="PrecioTotal" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="String" Name="TasaIVA" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="cat_des" Nullable="false" MaxLength="60" />
+    <Property Type="String" Name="IngresosNetosGravados" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="TipoImpuesto" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="CorreoElectronico" Nullable="false" MaxLength="1" />
+  </ComplexType>
+</Schema>

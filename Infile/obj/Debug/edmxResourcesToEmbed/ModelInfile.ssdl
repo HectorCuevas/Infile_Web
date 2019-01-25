@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InfileModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CAT_STD_Documento">
+    <Key>
+      <PropertyRef Name="CodigoTipoDocumento" />
+      <PropertyRef Name="SerieDocumento" />
+    </Key>
+    <Property Name="CodigoTipoDocumento" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SerieDocumento" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="NoResolucion" Type="varchar" MaxLength="50" />
+    <Property Name="FechaResolucion" Type="date" />
+    <Property Name="NoCorrelativoInicial" Type="int" />
+    <Property Name="NoCorrelativoFinal" Type="int" />
+    <Property Name="CodigoSucursal" Type="varchar" MaxLength="10" />
+    <Property Name="CodigoTerminal" Type="int" />
+    <Property Name="Estado" Type="bit" />
+  </EntityType>
+  <EntityType Name="CAT_STD_General">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="NombreComercial" Type="varchar" MaxLength="100" />
+    <Property Name="NombreSocial" Type="varchar" MaxLength="100" />
+    <Property Name="RegimenSAT" Type="varchar" MaxLength="100" />
+    <Property Name="Direccion" Type="varchar" MaxLength="100" />
+    <Property Name="Municipio" Type="varchar" MaxLength="100" />
+    <Property Name="Departamento" Type="varchar" MaxLength="100" />
+    <Property Name="CorreoElectronico" Type="varchar" MaxLength="100" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Function Name="xSpDocumento" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroDocumento" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="InfileModelStoreContainer">
+    <EntitySet Name="CAT_STD_Documento" EntityType="Self.CAT_STD_Documento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CAT_STD_General" EntityType="Self.CAT_STD_General" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

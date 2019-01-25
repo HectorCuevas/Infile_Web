@@ -1,0 +1,755 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Infile
+</name>
+</assembly>
+<members>
+<member name="T:Infile.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Infile.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Infile.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Infile.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Infile.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Infile.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:Infile.wsInfile.ingface">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.#ctor">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.helloCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.registrarDteCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.cargarDteCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.setMostrarLogCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.getIp_clienteCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.cargaConfiguracionCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.pasarGarbageCollectorCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.setIp_clienteCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.anulacionDteCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.cierreCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.validacionDteCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.registrarDteSapCompleted">
+<remarks/>
+</member>
+<member name="E:Infile.wsInfile.ingface.isMostrarLogCompleted">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.hello(System.String)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.helloAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.helloAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.registrarDte(Infile.wsInfile.requestDte)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.registrarDteAsync(Infile.wsInfile.requestDte)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.registrarDteAsync(Infile.wsInfile.requestDte,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cargarDte(Infile.wsInfile.requestDte,System.String)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cargarDteAsync(Infile.wsInfile.requestDte,System.String)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cargarDteAsync(Infile.wsInfile.requestDte,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.setMostrarLog(System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.setMostrarLogAsync(System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.setMostrarLogAsync(System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.getIp_cliente">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.getIp_clienteAsync">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.getIp_clienteAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cargaConfiguracion">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cargaConfiguracionAsync">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cargaConfiguracionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.pasarGarbageCollector">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.pasarGarbageCollectorAsync">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.pasarGarbageCollectorAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.setIp_cliente(System.String)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.setIp_clienteAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.setIp_clienteAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.anulacionDte(Infile.wsInfile.requestAnulacionDte)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.anulacionDteAsync(Infile.wsInfile.requestAnulacionDte)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.anulacionDteAsync(Infile.wsInfile.requestAnulacionDte,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cierre(System.String,System.String,System.String,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cierreAsync(System.String,System.String,System.String,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.cierreAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.validacionDte(Infile.wsInfile.requestValidacion)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.validacionDteAsync(Infile.wsInfile.requestValidacion)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.validacionDteAsync(Infile.wsInfile.requestValidacion,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.registrarDteSap(Infile.wsInfile.requestDte)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.registrarDteSapAsync(Infile.wsInfile.requestDte)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.registrarDteSapAsync(Infile.wsInfile.requestDte,System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.isMostrarLog">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.isMostrarLogAsync">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.isMostrarLogAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Infile.wsInfile.ingface.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.requestDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestDte.clave">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestDte.dte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestDte.usuario">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestDte.validador">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.dte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.cae">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.codigoEstablecimiento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.codigoMoneda">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.correoComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.departamentoComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.departamentoVendedor">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.descripcionOtroImpuesto">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.detalleDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.detalleImpuestosIva">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.detalleImpuestosIvaSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.direccionComercialComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.direccionComercialVendedor">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.estadoDocumento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.fechaAnulacion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.fechaAnulacionSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.fechaDocumento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.fechaDocumentoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.fechaResolucion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.fechaResolucionSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.idDispositivo">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeBruto">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeBrutoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeDescuento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeDescuentoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeNetoGravado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeNetoGravadoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeOtrosImpuestos">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeOtrosImpuestosSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeTotalExento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.importeTotalExentoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.montoTotalOperacion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.municipioComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.municipioVendedor">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.nitComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.nitGFACE">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.nitVendedor">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.nombreComercialComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.nombreComercialRazonSocialVendedor">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.nombreCompletoVendedor">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.numeroDocumento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.numeroDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.numeroResolucion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.observaciones">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_01">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_02">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_03">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_04">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_05">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_06">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_07">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_08">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_09">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_10">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_11">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_12">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_13">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_14">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_15">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_16">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_17">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_18">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_19">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.personalizado_20">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.rangoFinalAutorizado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.rangoInicialAutorizado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.regimen2989">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.regimenISR">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.serieAutorizada">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.serieDocumento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.telefonoComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.tipoCambio">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.tipoCambioSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.dte.tipoDocumento">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.detalleDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.cantidad">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.cantidadSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.codigoProducto">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.descripcionProducto">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.detalleImpuestosIva">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.detalleImpuestosIvaSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeExento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeExentoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeNetoGravado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeNetoGravadoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeOtrosImpuestos">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeOtrosImpuestosSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeTotalOperacion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.importeTotalOperacionSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.montoBruto">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.montoBrutoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.montoDescuento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.montoDescuentoSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.personalizado_01">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.personalizado_02">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.personalizado_03">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.personalizado_04">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.personalizado_05">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.personalizado_06">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.precioUnitario">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.precioUnitarioSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.tipoProducto">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.detalleDte.unidadMedida">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.requestValidacion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestValidacion.clave">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestValidacion.codigoEstablecimiento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestValidacion.nitComprador">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestValidacion.nitVendedor">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestValidacion.numeroDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestValidacion.usuario">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.requestAnulacionDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.clave">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.codigoEstablecimiento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.concepto">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.fechaAnulacion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.fechaAnulacionSpecified">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.numeroDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.tipoDocumento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.requestAnulacionDte.usuario">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.resultado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.resultado.anotaciones">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.resultado.descripcion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.resultado.valido">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.responseDteSap">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDteSap.cae">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDteSap.estado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDteSap.numeroDocumento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDteSap.numeroDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDteSap.rangoFinalAutorizado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDteSap.rangoInicialAutorizado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDteSap.regimen">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.responseCierre">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseCierre.checkSum">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseCierre.codigoCae">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseCierre.codigoCrfm">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.responseAnulacionDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseAnulacionDte.dte">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.responseValidacion">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseValidacion.dte">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.responseDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDte.cae">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDte.estado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDte.numeroDocumento">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDte.numeroDte">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDte.rangoFinalAutorizado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDte.rangoInicialAutorizado">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.responseDte.regimen">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.helloCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.helloCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.helloCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.registrarDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.registrarDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.registrarDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.cargarDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.cargarDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.cargarDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.setMostrarLogCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.getIp_clienteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.getIp_clienteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.getIp_clienteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.cargaConfiguracionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.pasarGarbageCollectorCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.setIp_clienteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.anulacionDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.anulacionDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.anulacionDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.cierreCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.cierreCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.cierreCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.validacionDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.validacionDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.validacionDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.registrarDteSapCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.registrarDteSapCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.registrarDteSapCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.isMostrarLogCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Infile.wsInfile.isMostrarLogCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Infile.wsInfile.isMostrarLogCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>
